@@ -5,35 +5,6 @@ import 'package:google_fonts/google_fonts.dart';
 Size kScreenSize;
 enum Logosize { large, medium, small }
 
-class kBookLogo extends StatelessWidget {
-  kBookLogo(Logosize size) {
-    switch (size) {
-      case Logosize.large:
-        this.size = 150;
-        break;
-      case Logosize.medium:
-        this.size = 90;
-        break;
-      case Logosize.small:
-        this.size = 70;
-        break;
-      default:
-        this.size = 150;
-    }
-  }
-
-  double size;
-  @override
-  Widget build(BuildContext context) {
-    return ConstrainedBox(
-      constraints: BoxConstraints.tightFor(width: size, height: size),
-      child: Image(
-        image: AssetImage('assets/bookAppLogo.png'),
-      ),
-    );
-  }
-}
-
 const Icon kBookLogoBlue = Icon(
   FontAwesomeIcons.bookReader,
   size: 60,
@@ -45,7 +16,18 @@ final TextStyle kOnboardingTextStyle = GoogleFonts.montserrat(
   fontSize: 20,
 );
 
+final TextStyle kMainTextStyle = GoogleFonts.montserrat(
+  fontWeight: FontWeight.w400,
+  color: Colors.white,
+  fontSize: 40,
+);
+
 const Color kBackgroundColor = Color(0xFF335577);
+const Color kBackgroundColor2 = Color(0xFF161A34);
+const Color kBackgroundColor3 = Color(0xFF292e53);
+const Color kActiveCardColor = Color(0xFF806EBF);
+const Color kInactiveCardColor = Color(0xFF323960);
+const Color kFadedWhiteColor = Color(0xFFB7B8BD);
 
 const Duration kSplashScreenAnimationDuration = Duration(milliseconds: 1000);
 

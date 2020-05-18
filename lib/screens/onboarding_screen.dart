@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:day17_30doc/screens/main_page.dart';
+import 'package:day17_30doc/utilities/my_widgets.dart';
 import 'package:day17_30doc/utilities/styles_and_constants.dart';
 import 'package:flutter/material.dart';
 
@@ -31,13 +32,13 @@ class OnboardingScreen extends StatelessWidget {
             ),
             Positioned(
               top: 70,
-              left: 50,
+              left: 30,
               child: kBookLogo(Logosize.medium),
             ),
             PageView.builder(
               itemBuilder: (context, page) {
                 return Container(
-                  padding: const EdgeInsets.fromLTRB(50, 0, 20, 200),
+                  padding: const EdgeInsets.fromLTRB(50, 0, 20, 170),
                   alignment: Alignment.bottomLeft,
                   constraints: BoxConstraints.tight(kScreenSize),
                   decoration: BoxDecoration(
@@ -55,6 +56,7 @@ class OnboardingScreen extends StatelessWidget {
                         style: kOnboardingTextStyle.copyWith(
                             fontSize: 24, fontWeight: FontWeight.w700),
                       ),
+                      SizedBox(height: 20),
                       Text(
                         kOnboardingText[page],
                         style: kOnboardingTextStyle,
