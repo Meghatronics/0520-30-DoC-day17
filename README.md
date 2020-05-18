@@ -1,16 +1,21 @@
 # day17_30doc
 
-A new Flutter project.
+Book App.
 
-## Getting Started
+#### Main App Screen is unfinished.
 
-This project is a starting point for a Flutter application.
+Inspiration and logo from
+https://dribbble.com/shots/7155551-books/attachments/159859?mode=media
 
-A few resources to get you started if this is your first Flutter project:
+https://dribbble.com/shots/9920270-Book-App/attachments/1954435?mode=media
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://dribbble.com/shots/7118470-Book-App-IOS/attachments/121338?mode=media
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screens
+<img src="Demo%20Screens/splash_start.jpg" width="250">  <img src="Demo%20Screens/splash_end.jpg" width="250">
+
+<img src="Demo%20Screens/onboarding1.jpg" width="250">      |      <img src="Demo%20Screens/onboarding2.jpg" width="250">     |     <img src="Demo%20Screens/onboarding3.jpg" width="250">
+
+### These haven't been finished. They will be completed and updated.
+<img src="Demo%20Screens/unfinishedMain.jpg" width="250">             <img src="Demo%20Screens/unfinishedMainUsingSearch.jpg" width="250">
